@@ -3,3 +3,4 @@ from django.db import models
 class Addressrymrfcjwdj(models.Model):
     'Generated Model'
     street = models.BigIntegerField()
+    asdfgh = models.BigIntegerField(null=True,blank=True,)
