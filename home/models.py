@@ -4,3 +4,4 @@ class Addressrymrfcjwdj(models.Model):
     'Generated Model'
     street = models.BigIntegerField()
     asdfgh = models.BigIntegerField(null=True,blank=True,)
+    qwert = models.BigIntegerField(null=True,blank=True,)
