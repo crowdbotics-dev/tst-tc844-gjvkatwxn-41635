@@ -5,3 +5,6 @@ class Addressrymrfcjwdj(models.Model):
     street = models.BigIntegerField()
     asdfgh = models.BigIntegerField(null=True,blank=True,)
     qwert = models.BigIntegerField(null=True,blank=True,)
+class Qqerty(models.Model):
+    'Generated Model'
+    sdfghj = models.BigIntegerField()

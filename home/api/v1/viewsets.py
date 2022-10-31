@@ -1,6 +1,6 @@
 from rest_framework import viewsets
-from home.models import Addressrymrfcjwdj
-from .serializers import AddressrymrfcjwdjSerializer
+from home.models import Addressrymrfcjwdj,Qqerty
+from .serializers import AddressrymrfcjwdjSerializer,QqertySerializer
 from rest_framework import authentication
 from rest_framework.authtoken.serializers import AuthTokenSerializer
 from rest_framework.viewsets import ModelViewSet, ViewSet
@@ -37,3 +37,8 @@ class AddressrymrfcjwdjViewSet(viewsets.ModelViewSet):
     serializer_class = AddressrymrfcjwdjSerializer
     authentication_classes = (authentication.SessionAuthentication, authentication.TokenAuthentication)
     queryset = Addressrymrfcjwdj.objects.all()
+
+class QqertyViewSet(viewsets.ModelViewSet):
+    serializer_class = QqertySerializer
+    authentication_classes = (authentication.SessionAuthentication, authentication.TokenAuthentication)
+    queryset = Qqerty.objects.all()

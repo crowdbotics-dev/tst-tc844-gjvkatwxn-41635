@@ -1,5 +1,5 @@
 from django.contrib.auth import get_user_model
-from home.models import Addressrymrfcjwdj
+from home.models import Addressrymrfcjwdj,Qqerty
 from django.http import HttpRequest
 from django.utils.translation import ugettext_lazy as _
 from allauth.account import app_settings as allauth_settings
@@ -80,4 +80,10 @@ class AddressrymrfcjwdjSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Addressrymrfcjwdj
+        fields = "__all__"
+
+class QqertySerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = Qqerty
         fields = "__all__"
